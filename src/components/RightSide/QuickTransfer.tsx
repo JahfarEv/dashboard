@@ -25,7 +25,7 @@ const fetchUsers = async()=>{
       </div>
       <div className="rounded-2xl my-2 flex flex-row items-center justify-center">
         <div className="w-12 h-24 rounded-full bg-red-300 mx-1">
-            {user.map((user)=>(
+            {/* {user.map((user)=>(
                 <div>
                     <img
             src={user.name}
@@ -36,7 +36,7 @@ const fetchUsers = async()=>{
             <h3 className="text-sm mx-2">jahfar</h3>
           </div>
                 </div>
-            ))}
+            ))} */}
           
         </div>
         <div className="w-12 h-24 rounded-full bg-yellow-100">
