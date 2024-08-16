@@ -5,7 +5,7 @@ interface Props{
 }
 const Content:React.FC<Props> = ({children}) => {
   return (
-    <div>
+    <div className="flex-1 flex flex-col gap-5">
       {children}
     </div>
   )

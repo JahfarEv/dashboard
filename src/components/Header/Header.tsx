@@ -6,7 +6,7 @@ import { TfiUser } from "react-icons/tfi";
 
 const Header = () => {
   return (
-    <nav className="fixed top-3 right-3 z-50 w-[91%] max-w-[1200px] bg-white border border-gray-200  rounded-3xl">
+    <nav className="fixed top-3 right-3 z-50 w-[91%] bg-white border border-gray-200  rounded-3xl">
       <div className="px-3 py-3 lg:px-5 lg-pl-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-start rtl:justify-end">
