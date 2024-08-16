@@ -28,8 +28,27 @@ const Currency = () => {
           <div className="flex justify-end mx-5">
             <div className="py-6 bg-white rounded-lg p-5 flex items-center justify-center"></div>
           </div>
-        </div>        
-        <div>
+        </div> 
+        <div className="flex gap-1 bg-white rounded-2xl mt-4 w-full md:w-[250px] h-36">
+          <div className="flex justify-between flex-col w-full p-3">
+              <h1 className="font-bold">Currencies market</h1>
+              <div className="flex justify-between">
+            <div className="flex justify-start mx-5 py-3 flex-col">
+              <h1 className="flex">ind</h1>
+              <h1 className="flex">pak</h1>
+            </div>
+            <div className="flex justify-end mx-5 py-3 flex-col">
+            <h1 className="flex">spp</h1>
+            <span className="flex">woeo</span>
+            </div>
+            
+            </div>
+          </div>
+          <div className="flex justify-end mx-5">
+            <div className="py-6 bg-white rounded-lg p-5 flex items-center justify-center"></div>
+          </div>
+        </div>       
+        {/* <div>
             
         <div className="flex gap-1 bg-white rounded-2xl mt-4 w-full md:w-[250px] h-36">
         <div className="flex justify-end mx-5">
@@ -39,7 +58,7 @@ const Currency = () => {
             <div className="py-6 bg-white rounded-lg p-5 flex items-center justify-center">Pak</div>
           </div>
         </div>  
-      </div>
+      </div> */}
       </div>
     </div>
   );
